@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card Generator</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <!-- < < < MAIN SECTION STARTED > > > -->
+    <section>
+
+        <div id="formContainer"> <!--< < < FORM MAIN > > >-->
+            <h1>Registration Form</h1>
+            <input type="text" id="userName" placeholder="Enter Your Name :"/> <br/>
+            <span id="userError"></span>
+            <input type="text" id="userId" placeholder="Enter Your ID :"/> <br/>
+            <span id="idError"></span>
+            <input type="text" id="courseName" placeholder="Enter Your Course Name :"/> <br/>
+            <span id="courseError"></span>
+            <input type="email" id="userEmail" placeholder="Enter Your Email Address :"/> <br/>
+            <span id="emailError"></span>
+            <input type="number" id="phoneNo" placeholder="Enter Your Phone No :"/>
+            <span id="phoneError"></span> <br/>
+            <button onclick="submit()">Submit</button>
+        </div>
+
+        <div id="cardContainer"></div>
+
+    </section>
+    <!-- < < < MAIN SECTION STARTED > > > -->
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
